@@ -1,0 +1,51 @@
+.Components{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.Component-wrapper{
+  width: 100%;
+  margin-top: 3%;
+  display: inline-block;
+}
+.Component-wrapper div{
+  text-align: center;
+  margin: 1%;
+  float: left;
+  width: 45%;
+  background-color: #1F2E38;
+  color: #EEE;
+  box-shadow:
+    1px 1px 0 rgba(0,0,0,0.8),
+    2px 2px 0 rgba(0,0,0,0.8),
+    3px 3px 0 rgba(0,0,0,0.8),
+    4px 4px 0 rgba(0,0,0,0.8),
+    5px 5px 0 rgba(0,0,0,0.8),
+    6px 6px 0 rgba(0,0,0,0.8),
+    7px 7px 0 rgba(0,0,0,0.8),
+    8px 8px 0 rgba(0,0,0,0.8),
+    9px 9px 0 rgba(0,0,0,0.8),
+    10px 10px 8px rgba(0,0,0,0.8);
+}
+.Component-wrapper div p{
+  padding: 20px;
+  font-size: 1.6rem;
+}
+.Component-wrapper div h2{
+  padding-top: 10px;
+  font-size: 1.8rem;
+}
+.Component-wrapper img{
+  width: 100%;
+}
+.Components button{
+  margin-top: 10px;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  width: 100%;
+  cursor: crosshair;
+  color: #008236;
+  outline: none;
+  border-bottom: 3px dashed #008236;
+}

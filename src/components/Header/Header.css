@@ -1,0 +1,42 @@
+.Header{
+  background: #008236;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 1px 3px #000;
+}
+.Header-logo {
+  float: left;
+  padding: 5px;
+  margin-left: 10px;
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.Header h1{
+  font-size: 1.6rem;
+}
+.Header h1:first-child{
+  float: left;
+  margin-left: 20px;
+}
+#Header-topic{
+  font-size: 4em;
+  margin: auto;
+  text-shadow: -1px -1px 2px #000;
+}
+.Header div{
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+}
+.Header:after{
+  display: table;
+  content: '';
+  clear: both;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

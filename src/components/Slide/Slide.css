@@ -1,0 +1,29 @@
+.Slide{
+  width: 100%;
+  display: block;
+  color: #000000;
+  padding: 8px;
+}
+
+.Slide h1{
+  margin-bottom: 10px;
+  font-size: 4rem;
+  padding: 0 0 10px 0;
+  text-transform: uppercase;
+  color: #008236;
+  -webkit-transform: skew(-5deg, -5deg) rotate(5deg);
+  transform: skew(-5deg, -5deg) rotate(5deg);
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  text-shadow: 1px 1px #006028,
+  2px 2px #006028,
+  3px 3px #006028,
+  4px 4px #006028,
+  5px 5px #006028,
+  6px 6px #006028,
+  7px 7px #006028,
+  8px 8px #005121,
+  9px 9px #005121,
+  10px 10px #005121,
+  11px 11px 15px rgba(0,0,0,0.5);
+}

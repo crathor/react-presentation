@@ -1,0 +1,24 @@
+.Bibliography{
+  display: block;
+  width: 90%;
+  margin: 5% auto;
+}
+.Bibliography p{
+  margin: 8px;
+  font-size: 2.5rem;
+}
+.Bibliography h2{
+  padding-top: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(0,0,0,.5);
+}
+.Bibliography a{
+  font-size: 3rem;
+  text-decoration: none;
+  color: #008239;
+  font-weight: 700;
+}
+.Bibliography a:visited{
+  color: #008239;
+}

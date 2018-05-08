@@ -1,0 +1,83 @@
+.HandleEvents{
+  width: 90%;
+  margin: 0 auto;
+}
+.HandleEvents .statement{
+  box-sizing: border-box;
+  padding: 8px;
+  background: #008236;
+  color: #eee;
+  font-size: 1.6rem;
+  border: 1px solid #000;
+  border-right: none;
+  border-bottom: none;
+  box-shadow:
+    1px 1px 0 #006028,
+    2px 2px 0 #006028,
+    3px 3px 0 #006028,
+    4px 4px 0 #006028,
+    5px 5px 0 #006028,
+    6px 6px 0 #006028,
+    7px 7px 0 #006028,
+    8px 8px 0 #005121,
+    9px 9px 0 #005121,
+    10px 10px 8px #000;
+}
+.event-div-wrapper{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.event-div{
+  position: relative;
+  word-wrap: break-word;
+  background: #008236;
+  box-sizing: border-box;
+  padding: 8px;
+  margin: 5% 1%;
+  width: 30%;
+  min-height: 200px;
+  font-size: 1.6rem;
+  color: #EEE;
+  text-align: left;
+  display: inline-block;
+  border: 1px solid #000;
+  border-right: none;
+  border-bottom: none;
+  box-shadow:
+    1px 1px 0 #006028,
+    2px 2px 0 #006028,
+    3px 3px 0 #006028,
+    4px 4px 0 #006028,
+    5px 5px 0 #006028,
+    6px 6px 0 #006028,
+    7px 7px 0 #006028,
+    8px 8px 0 #005121,
+    9px 9px 0 #005121,
+    10px 10px 8px rgba(0,0,0,0.8);
+}
+.event-div p{
+  word-wrap: break-word;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 8px;
+}
+.event-div h3{
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 8px;
+}
+.event-div textarea{
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 8px;
+  resize: none;
+}
+.images-container{
+  width: 90%;
+  margin: 0 auto;
+}
+.images-container img{
+}

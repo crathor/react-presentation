@@ -1,0 +1,98 @@
+.Jsx{
+  display: block;
+  width: 90%;
+  margin: 15px auto;
+}
+.Jsx p{
+  padding: 16px;
+  background: #008236;
+  color: #eee;
+  font-size: 1.7rem;
+  border: 1px solid #000;
+  border-right: none;
+  border-bottom: none;
+  box-shadow:
+    1px 1px 0 #006028,
+    2px 2px 0 #006028,
+    3px 3px 0 #006028,
+    4px 4px 0 #006028,
+    5px 5px 0 #006028,
+    6px 6px 0 #006028,
+    7px 7px 0 #006028,
+    8px 8px 0 #005121,
+    9px 9px 0 #005121,
+    10px 10px 8px #000;
+}
+.Jsx p:not(:first-child){
+  padding: 8px;
+  margin: 3% auto;
+  width: 50%;
+}
+.Jsx ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  width: 100%;
+}
+.Jsx li{
+  background: #008236;
+  box-sizing: border-box;
+  padding: 8px;
+  margin: 2%;
+  font-size: 1.6rem;
+  width: 33%;
+  color: #EEE;
+  text-align: left;
+  display: inline-block;
+  border: 1px solid #000;
+  border-right: none;
+  border-bottom: none;
+  box-shadow:
+    1px 1px 0 #006028,
+    2px 2px 0 #006028,
+    3px 3px 0 #006028,
+    4px 4px 0 #006028,
+    5px 5px 0 #006028,
+    6px 6px 0 #006028,
+    7px 7px 0 #006028,
+    8px 8px 0 #005121,
+    9px 9px 0 #005121,
+    10px 10px 8px rgba(0,0,0,0.8);
+}
+.Jsx .middleElement{
+  position: relative;
+  background: #000;
+  text-align: center;
+  box-shadow: none;
+  border: none;
+  width: 20%;
+}
+.Jsx .middleElement:after{
+  position: absolute;
+  display: block;
+  content: '';
+  height: 0;
+  width: 0;
+
+  border: solid 20px transparent;
+  border-right: solid 20px #000;
+  border-left-width: 0px;
+  background: none;
+  top: 1px;
+  left: -21px;
+}
+.Jsx .middleElement:before{
+  position: absolute;
+  display: block;
+  content: '';
+  height: 0;
+  width: 0;
+
+  border: solid 20px transparent;
+  border-left: solid 20px #000;
+  border-right-width: 0px;
+  background: none;
+  top: 1px;
+  right: -21px;
+}

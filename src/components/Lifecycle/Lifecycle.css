@@ -1,0 +1,67 @@
+.Lifecycle{
+  width: 100%;
+  margin: 0 auto;
+}
+.Lifecycle-description{
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  background: #008236;
+  color: #eee;
+  font-size: 1.6rem;
+  border: 1px solid #000;
+  border-right: none;
+  border-bottom: none;
+  box-shadow:
+    1px 1px 0 #006028,
+    2px 2px 0 #006028,
+    3px 3px 0 #006028,
+    4px 4px 0 #006028,
+    5px 5px 0 #006028,
+    6px 6px 0 #006028,
+    7px 7px 0 #006028,
+    8px 8px 0 #005121,
+    9px 9px 0 #005121,
+    10px 10px 8px #000;
+}
+.Lifecycle ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Lifecycle li{
+  box-sizing: border-box;
+  width: 30%;
+  padding: 8px;
+  background: #008236;
+  min-height: 200px;
+  margin: 1%;
+  color: #EEE;
+  text-align: left;
+  display: inline-block;
+  border: 1px solid #000;
+  border-right: none;
+  border-bottom: none;
+  box-shadow:
+    1px 1px 0 #006028,
+    2px 2px 0 #006028,
+    3px 3px 0 #006028,
+    4px 4px 0 #006028,
+    5px 5px 0 #006028,
+    6px 6px 0 #006028,
+    7px 7px 0 #006028,
+    8px 8px 0 #005121,
+    9px 9px 0 #005121,
+    10px 10px 8px rgba(0,0,0,0.8);
+}
+.Lifecycle li h3{
+  font-size: 2rem;
+  text-decoration: underline;
+  color: #000;
+  padding-bottom: 3px;
+  border-bottom: 1px dashed #eee;
+}
+.Lifecycle li p{
+  font-size: 1.6rem;
+  padding: 8px;
+}

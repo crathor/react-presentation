@@ -1,0 +1,44 @@
+.StateAndProps{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.StateAndProps div{
+  color: #eee;
+  width: 45%;
+  margin: 2%;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  background: #008236;
+  border-right: none;
+  border-bottom: none;
+  box-shadow:
+    1px 1px 0 #006028,
+    2px 2px 0 #006028,
+    3px 3px 0 #006028,
+    4px 4px 0 #006028,
+    5px 5px 0 #006028,
+    6px 6px 0 #006028,
+    7px 7px 0 #006028,
+    8px 8px 0 #005121,
+    9px 9px 0 #005121,
+    10px 10px 8px rgba(0,0,0,0.8);
+}
+.StateAndProps div ul{
+  list-style: none;
+}
+.StateAndProps div ul h3{
+  margin: 5px;
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: 4px solid #eee;
+}
+.StateAndProps div li{
+  margin: 10px;
+  padding: 8px;
+  font-size: 1.6rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}

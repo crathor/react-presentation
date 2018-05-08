@@ -1,0 +1,70 @@
+.Intro{
+  width: 90%;
+  display: block;
+  margin: 15px auto;
+}
+.Intro p{
+  padding: 16px;
+  background: #008236;
+  color: #eee;
+  font-size: 1.6rem;
+  border: 1px solid #000;
+  border-right: none;
+  border-bottom: none;
+  box-shadow:
+    1px 1px 0 #006028,
+    2px 2px 0 #006028,
+    3px 3px 0 #006028,
+    4px 4px 0 #006028,
+    5px 5px 0 #006028,
+    6px 6px 0 #006028,
+    7px 7px 0 #006028,
+    8px 8px 0 #005121,
+    9px 9px 0 #005121,
+    10px 10px 8px #000;
+}
+.Intro ul{
+  margin-top: 5%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.Intro li{
+  background: #008236;
+  box-sizing: border-box;
+  min-height: 200px;
+  font-size: 1.6rem;
+  padding: 8px;
+  margin: 2%;
+  width: 33%;
+  color: #EEE;
+  text-align: left;
+  display: inline-block;
+  border: 1px solid #000;
+  border-right: none;
+  border-bottom: none;
+  box-shadow:
+    1px 1px 0 #006028,
+    2px 2px 0 #006028,
+    3px 3px 0 #006028,
+    4px 4px 0 #006028,
+    5px 5px 0 #006028,
+    6px 6px 0 #006028,
+    7px 7px 0 #006028,
+    8px 8px 0 #005121,
+    9px 9px 0 #005121,
+    10px 10px 8px rgba(0,0,0,0.8);
+}
+.Intro li h2{
+  text-align: center;
+  padding: 10px 0;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #CCC;
+  font-weight: bold;
+}
+.Intro span{
+  text-decoration: underline;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000;
+}
